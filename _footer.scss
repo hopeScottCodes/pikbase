@@ -1,0 +1,86 @@
+footer {
+    height: 30vh;
+    a {
+        color: cornsilk;
+        text-decoration: none;
+    }
+    #footer1 {
+        color: cornsilk;
+        background-color: chocolate;
+        #footer1-content {
+            height: 20vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 90%;
+            margin: auto;
+            h4 {
+                font-size: 1.2rem;
+            }
+            #support {
+                #support-nav {
+                    margin-top: 1rem;
+                    display: flex;
+                    list-style: none;
+                    li {
+                        padding: 0 1rem;
+                    }
+                }
+            }
+            #company {
+                #company-nav {
+                    margin-top: 1rem;
+                    display: flex;
+                    list-style: none;
+                    li {
+                        padding: 0 1rem;
+                    }
+                }
+            }
+            #mobile-apps {
+                #appstore {
+                    margin-top: 1rem;
+                    display: flex;
+                    list-style: none;
+                    li {
+                        padding: 0 1rem;
+                    }
+                }
+            }
+        }
+    }
+    #footer2 {
+        color: cornsilk;
+        background-color: rgb(36, 7, 75);
+        #footer2-content {
+            height: 10vh;
+            display: flex;
+            align-items: center;
+            width: 90%;
+            margin: auto;
+            #copy-n-nav {
+                flex: 1;
+                display: flex;
+                #foot-nav {
+                    margin-left: 3rem;
+                    display: flex;
+                    list-style: none;
+                    li {
+                        padding: 0 1rem;
+                    }
+                }
+            }
+        }
+        #social-links {
+            flex: 1;
+            #socials {
+                display: flex;
+                justify-content: flex-end;
+                list-style: none;
+                li {
+                    padding: 0 1rem;
+                }
+            }
+        }
+    }
+}

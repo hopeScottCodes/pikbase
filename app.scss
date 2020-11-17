@@ -1,0 +1,66 @@
+@import 'variables';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(73, 73, 73);
+}
+
+button,
+input,
+textarea {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.brand-name {
+    text-transform: lowercase;
+    color: chocolate;
+    font-size: 2rem;
+    font-weight: 550;
+}
+
+header {
+    height: 10vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@import './showcase';
+@import './enterprise';
+@import './footer';
+.top-shape {
+    width: 25rem;
+    height: 25rem;
+    position: absolute;
+    opacity: 0.2;
+    z-index: -1;
+    top: -12em;
+    right: 12em;
+    background: linear-gradient(45deg, chocolate, $themeColor);
+    transform: rotateZ(35deg);
+}
+
+.fade-in {
+    animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+    from {
+        display: none;
+    }
+    to {
+        display: flex;
+    }
+}

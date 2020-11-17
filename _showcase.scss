@@ -1,0 +1,121 @@
+#showcase {
+    height: 90vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    #cover {
+        flex: 1;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    #form {
+        display: flex;
+        justify-content: center;
+        flex: 1;
+        #form-content {
+            width: 90%;
+            margin: auto;
+            #form-options {
+                display: flex;
+                margin: 1em;
+                #my-base-login {
+                    display: none;
+                    width: 80%;
+                    margin: auto;
+                    justify-content: center;
+                    form {
+                        width: 60%;
+                        margin: auto;
+                        display: flex;
+                        flex-direction: column;
+                        .form-control {
+                            margin-top: 1em;
+                            input {
+                                width: 100%;
+                                margin: auto;
+                                padding: 0.5rem;
+                                border: $themeColor 1px solid;
+                                border-radius: 0.3rem;
+                                color: $themeColor;
+                            }
+                            .my-btn {
+                                margin-top: 2em;
+                                width: 100%;
+                                background: $themeColor;
+                                padding: 0.5rem;
+                                border: none;
+                                color: #fff;
+                                border-radius: 0.3rem;
+                                cursor: pointer;
+                            }
+                        }
+                        #form-footer {
+                            display: flex;
+                            width: 100%;
+                            margin-top: 1rem;
+                            p {
+                                text-align: center;
+                                width: 100%;
+                                a {
+                                    color: $themeColor;
+                                    text-decoration: none;
+                                    font-weight: 500;
+                                }
+                            }
+                        }
+                    }
+                }
+                #my-base-signup {
+                    display: flex;
+                    width: 80%;
+                    margin: auto;
+                    justify-content: center;
+                    form {
+                        width: 70%;
+                        margin: auto;
+                        display: flex;
+                        flex-direction: column;
+                        .form-control {
+                            margin-top: 1em;
+                            input {
+                                width: 100%;
+                                margin: auto;
+                                padding: 0.5rem;
+                                border: $themeColor 1px solid;
+                                border-radius: 0.3rem;
+                                color: $themeColor;
+                            }
+                            .my-btn {
+                                margin-top: 2rem;
+                                width: 100%;
+                                background: $themeColor;
+                                padding: 0.5rem;
+                                border: none;
+                                color: #fff;
+                                border-radius: 0.3rem;
+                                cursor: pointer;
+                            }
+                        }
+                        #form-footer {
+                            display: flex;
+                            width: 100%;
+                            margin-top: 1rem;
+                            p {
+                                text-align: center;
+                                width: 100%;
+                                a {
+                                    color: $themeColor;
+                                    text-decoration: none;
+                                    font-weight: 500;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
